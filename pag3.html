@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    
+</head>
+
+<body>
+    <section class="menu" id="menuResp">
+            <a href="index.html" class="link1">Home</a>
+            <a href="pag1.html" class="link2"> SmoothLiving</a>
+            <a href="pag2.html" class="link3"> SmoothMusic</a>
+            <a href="pag3.html" class="linkMain"> SmoothPeople</a>
+            <a href="javascript:void(0);" class="icono" onclick="fcMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+       
+    </section>
+    <section class="titulo">
+        SmoothPeople
+    </section>
+    <section class="contMain">
+        <section class="rese"> 
+            <h2>¿Qué es SmoothPeople?</h2>
+            SmoothPeople es una red social. Busca mejorar las conexiones que existen en la gente, y crear conexiones nuevas. SmoothPeople está organizada de tal forma que se puede tener un perfil social y uno profesional, lo que permite relacionarse con amigos y expandirse profesionalmente a la misma vez.
+        </section>
+        <section class="principios">
+            <h2>¿Cuáles son los beneficios de SmoothPeople?</h2>  
+            SmoothPeople evita el uso de busquedas muy exhaustivas, que a veces pueden llegar a ser confusas, reuniendo muchas cualidades en una sola herramienta.
+        </section> 
+        
+            
+        
+    </section>
+    <footer>
+        <span class="sp1">Made by: Matías Soto A.</span>
+
+</footer>
+    <script >
+        function fcMenu(){
+            var x = document.getElementById("menuResp");
+            if(x.className === "menu"){
+                x.className += " responsive";
+            } else {
+                x.className = "menu";
+            }
+        }
+            
+        </script>
+</body>
+
+</html>

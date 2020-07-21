@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    
+</head>
+
+<body>
+    <section class="menu" id="menuResp">
+        <a href="index.html" class="linkMain">Home</a>
+        <a href="pag1.html" class="link2"> SmoothLiving</a>
+        <a href="pag2.html" class="link3"> SmoothMusic</a>
+        <a href="pag3.html" class="link4"> SmoothConnections</a>
+        <a href="javascript:void(0);" class="icono" onclick="fcMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+       
+    </section>
+    <section class="titulo">
+        Smoothinking
+    </section>
+    <section class="contMain">
+             
+        <section class="rese"> 
+            <h2>Reseña</h2>
+            Smoothinking recopila ideas con el fin de desarrollar herramientas para hacer más ameno el día a día.
+        </section>
+        <section class="principios">
+            <h2>Principios</h2>  
+            El objetivo de Smoothinking no es tan simple como hacer la vida más facil, es hacerla menos complicada para quienes quieran optimizar estilo de vida.
+            
+
+        </section>
+        <section class="datos">
+             <h2>Datos personales</h2>
+             <span> Matías Soto A.</span>
+            <span> matsoan@outlook.com</span>
+             
+            
+        </section>
+    </section>
+    <footer>
+            <span class="sp1">Made by: Matías Soto A.</span>
+  
+    </footer>
+    <script >
+        function fcMenu(){
+            var x = document.getElementById("menuResp");
+            if(x.className === "menu"){
+                x.className += " responsive";
+            } else {
+                x.className = "menu";
+            }
+        }
+            
+        </script>
+</body>
+
+</html>
